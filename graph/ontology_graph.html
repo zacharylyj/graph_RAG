@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Hyperplasia", "label": "Hyperplasia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Increased number of cells within an organ", "label": "Increased number of cells within an organ", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "RBC lysis", "label": "RBC lysis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Ineffective Na+ pumping", "label": "Ineffective Na+ pumping", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Stroke progression", "label": "Stroke progression", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Endothelial injury, thrombosis, embolism, ischaemia", "label": "Endothelial injury, thrombosis, embolism, ischaemia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Unequal chromosome numbers in daughter cells", "label": "Unequal chromosome numbers in daughter cells", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Improper microtubule function", "label": "Improper microtubule function", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Nucleosome disassembly", "label": "Nucleosome disassembly", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "RNA transcription", "label": "RNA transcription", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Listeria actin comet tails", "label": "Listeria actin comet tails", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Arp2/3 nucleation", "label": "Arp2/3 nucleation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Semi-conservative DNA replication", "label": "Semi-conservative DNA replication", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Newly synthesized DNA and parent DNA strands", "label": "Newly synthesized DNA and parent DNA strands", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Colon cancer genetic defect", "label": "Colon cancer genetic defect", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "MSH-2 gene mutation", "label": "MSH-2 gene mutation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Foot anatomical position", "label": "Foot anatomical position", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Inversion", "label": "Inversion", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Aorta histological structure", "label": "Aorta histological structure", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Elastic fibers", "label": "Elastic fibers", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Cell bursting prevention", "label": "Cell bursting prevention", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Sodium-potassium pump", "label": "Sodium-potassium pump", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Colloid osmotic pressure", "label": "Colloid osmotic pressure", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Water retention in capillaries", "label": "Water retention in capillaries", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Schwann cell destruction", "label": "Schwann cell destruction", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Speed of conductance", "label": "Speed of conductance", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Mushroom toxin", "label": "Mushroom toxin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Muscarinic receptor stimulation", "label": "Muscarinic receptor stimulation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Lactate production under anaerobic conditions", "label": "Lactate production under anaerobic conditions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pyruvate conversion", "label": "Pyruvate conversion", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "LDL cholesterol reduction", "label": "LDL cholesterol reduction", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "HMG-CoA reductase inhibitors", "label": "HMG-CoA reductase inhibitors", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Energy extraction from lipids", "label": "Energy extraction from lipids", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "FADH2 and NADH production", "label": "FADH2 and NADH production", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Neutral lipids fate", "label": "Neutral lipids fate", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Hydrolysis to free fatty acids", "label": "Hydrolysis to free fatty acids", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "MHC molecules", "label": "MHC molecules", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "CD4+ T lymphocytes recognition of MHC II", "label": "CD4+ T lymphocytes recognition of MHC II", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Anti-PD-1 antibodies", "label": "Anti-PD-1 antibodies", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Reduction of tumour-infiltrating regulatory T-cells", "label": "Reduction of tumour-infiltrating regulatory T-cells", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Th1 cells", "label": "Th1 cells", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "IFN-\u03b3 production", "label": "IFN-\u03b3 production", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Hypersensitivity types", "label": "Hypersensitivity types", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "I and IV", "label": "I and IV", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "SLE infection risk", "label": "SLE infection risk", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Increased immune response", "label": "Increased immune response", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Green watery diarrhea organism", "label": "Green watery diarrhea organism", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Giardia lamblia", "label": "Giardia lamblia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Histological diagnosis of lung mass", "label": "Histological diagnosis of lung mass", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Squamous cell carcinoma", "label": "Squamous cell carcinoma", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Surfactant production", "label": "Surfactant production", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Type II alveolar epithelial cells", "label": "Type II alveolar epithelial cells", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Asthma exacerbation", "label": "Asthma exacerbation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Mucus hypersecretion", "label": "Mucus hypersecretion", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Nerve injured during mastectomy", "label": "Nerve injured during mastectomy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Intercostobrachial nerve", "label": "Intercostobrachial nerve", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Oesophagus constriction", "label": "Oesophagus constriction", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Arch of aorta", "label": "Arch of aorta", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Blood vessel above left lung root", "label": "Blood vessel above left lung root", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Aortic arch", "label": "Aortic arch", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Last structure opacified by contrast", "label": "Last structure opacified by contrast", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Right subclavian artery", "label": "Right subclavian artery", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Vascular insult to left anterior descending artery", "label": "Vascular insult to left anterior descending artery", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Atrioventricular bundle", "label": "Atrioventricular bundle", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Aortic dissection presentation", "label": "Aortic dissection presentation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Lower limb ischaemia", "label": "Lower limb ischaemia", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Injury to left phrenic nerve", "label": "Injury to left phrenic nerve", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Raised left hemi-diaphragm", "label": "Raised left hemi-diaphragm", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Right common carotid artery origin", "label": "Right common carotid artery origin", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Brachiocephalic artery", "label": "Brachiocephalic artery", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Foetal atrial blood flow", "label": "Foetal atrial blood flow", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Foramen ovale", "label": "Foramen ovale", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pneumonia effect on gas exchange", "label": "Pneumonia effect on gas exchange", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Increased intrapulmonary shunting", "label": "Increased intrapulmonary shunting", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "High altitude adaptation", "label": "High altitude adaptation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Decreased serum bicarbonate", "label": "Decreased serum bicarbonate", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Highest expiratory flow", "label": "Highest expiratory flow", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "End of maximal inspiration", "label": "End of maximal inspiration", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Compensatory response to prevent fainting", "label": "Compensatory response to prevent fainting", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Stimulation of beta-1 receptors in ventricles", "label": "Stimulation of beta-1 receptors in ventricles", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Myocardial infarction location", "label": "Myocardial infarction location", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Inferior wall of left ventricle", "label": "Inferior wall of left ventricle", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Tachypnoea mechanism", "label": "Tachypnoea mechanism", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Central chemoreceptors responding to high PaCO2", "label": "Central chemoreceptors responding to high PaCO2", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Ciliated airway cells", "label": "Ciliated airway cells", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Epithelial lining cells", "label": "Epithelial lining cells", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Left ventricle end-systolic volume", "label": "Left ventricle end-systolic volume", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "DA line", "label": "DA line", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Lung volume equilibrium", "label": "Lung volume equilibrium", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "D", "label": "D", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Skin oedema mechanism", "label": "Skin oedema mechanism", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Increased capillary permeability", "label": "Increased capillary permeability", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pulmonary function test result", "label": "Pulmonary function test result", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Emphysema", "label": "Emphysema", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Cardiac valvular disorder", "label": "Cardiac valvular disorder", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Aortic stenosis", "label": "Aortic stenosis", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"from": "Hyperplasia", "label": "Hyperplasia is described as an increased number of cells within an organ.", "title": "Hyperplasia is described as an increased number of cells within an organ.", "to": "Increased number of cells within an organ"}, {"from": "RBC lysis", "label": "RBCs lyse in hypotonic solutions because they cannot pump Na+ out effectively.", "title": "RBCs lyse in hypotonic solutions because they cannot pump Na+ out effectively.", "to": "Ineffective Na+ pumping"}, {"from": "Stroke progression", "label": "The progression of a stroke typically follows endothelial injury, thrombosis, embolism, and ischaemia.", "title": "The progression of a stroke typically follows endothelial injury, thrombosis, embolism, and ischaemia.", "to": "Endothelial injury, thrombosis, embolism, ischaemia"}, {"from": "Unequal chromosome numbers in daughter cells", "label": "Improper function of microtubules can lead to unequal numbers of chromosomes in daughter cells after mitosis.", "title": "Improper function of microtubules can lead to unequal numbers of chromosomes in daughter cells after mitosis.", "to": "Improper microtubule function"}, {"from": "Nucleosome disassembly", "label": "Disassembly of nucleosomes is involved in RNA transcription.", "title": "Disassembly of nucleosomes is involved in RNA transcription.", "to": "RNA transcription"}, {"from": "Listeria actin comet tails", "label": "Arp2/3 is the most important nucleator of actin filament growth for Listeria\u0027s actin comet tails.", "title": "Arp2/3 is the most important nucleator of actin filament growth for Listeria\u0027s actin comet tails.", "to": "Arp2/3 nucleation"}, {"from": "Semi-conservative DNA replication", "label": "In semi-conservative DNA replication, each daughter cell contains one newly synthesized DNA strand and one DNA strand inherited from the parent cell.", "title": "In semi-conservative DNA replication, each daughter cell contains one newly synthesized DNA strand and one DNA strand inherited from the parent cell.", "to": "Newly synthesized DNA and parent DNA strands"}, {"from": "Colon cancer genetic defect", "label": "A loss of function mutation in the MSH-2 gene affecting DNA mismatch repair is likely responsible for colon cancer.", "title": "A loss of function mutation in the MSH-2 gene affecting DNA mismatch repair is likely responsible for colon cancer.", "to": "MSH-2 gene mutation"}, {"from": "Foot anatomical position", "label": "The anatomical term describing the foot position shown is inversion.", "title": "The anatomical term describing the foot position shown is inversion.", "to": "Inversion"}, {"from": "Aorta histological structure", "label": "The structure indicated by the arrows in the histological section of the aorta is elastic fibers.", "title": "The structure indicated by the arrows in the histological section of the aorta is elastic fibers.", "to": "Elastic fibers"}, {"from": "Cell bursting prevention", "label": "The sodium-potassium pump maintains a low intracellular sodium concentration, preventing cells from bursting.", "title": "The sodium-potassium pump maintains a low intracellular sodium concentration, preventing cells from bursting.", "to": "Sodium-potassium pump"}, {"from": "Colloid osmotic pressure", "label": "Colloid osmotic pressure retains water in the capillaries.", "title": "Colloid osmotic pressure retains water in the capillaries.", "to": "Water retention in capillaries"}, {"from": "Schwann cell destruction", "label": "Destruction of Schwann cells affects the speed of conductance in neurons.", "title": "Destruction of Schwann cells affects the speed of conductance in neurons.", "to": "Speed of conductance"}, {"from": "Mushroom toxin", "label": "The mushroom toxin stimulates muscarinic receptors, explaining the symptoms experienced.", "title": "The mushroom toxin stimulates muscarinic receptors, explaining the symptoms experienced.", "to": "Muscarinic receptor stimulation"}, {"from": "Lactate production under anaerobic conditions", "label": "Pyruvate is converted to lactate under anaerobic conditions during exercise.", "title": "Pyruvate is converted to lactate under anaerobic conditions during exercise.", "to": "Pyruvate conversion"}, {"from": "LDL cholesterol reduction", "label": "HMG-CoA reductase inhibitors are used to reduce the level of LDL cholesterol in patients with hyperlipidaemia.", "title": "HMG-CoA reductase inhibitors are used to reduce the level of LDL cholesterol in patients with hyperlipidaemia.", "to": "HMG-CoA reductase inhibitors"}, {"from": "Energy extraction from lipids", "label": "During beta-oxidation, the energy extracted from a lipid is in the form of FADH2 and NADH.", "title": "During beta-oxidation, the energy extracted from a lipid is in the form of FADH2 and NADH.", "to": "FADH2 and NADH production"}, {"from": "Neutral lipids fate", "label": "Neutral lipids within lipid droplets are likely hydrolyzed to free fatty acids.", "title": "Neutral lipids within lipid droplets are likely hydrolyzed to free fatty acids.", "to": "Hydrolysis to free fatty acids"}, {"from": "MHC molecules", "label": "CD4+ T lymphocytes recognize extracellular antigens presented by MHC II molecules.", "title": "CD4+ T lymphocytes recognize extracellular antigens presented by MHC II molecules.", "to": "CD4+ T lymphocytes recognition of MHC II"}, {"from": "Anti-PD-1 antibodies", "label": "Anti-PD-1 antibodies work by decreasing tumour-infiltrating regulatory T-cells within the tumour.", "title": "Anti-PD-1 antibodies work by decreasing tumour-infiltrating regulatory T-cells within the tumour.", "to": "Reduction of tumour-infiltrating regulatory T-cells"}, {"from": "Th1 cells", "label": "Th1 cells are important for eliminating tumour cells because they produce IFN-\u03b3, activating cytotoxic T cells.", "title": "Th1 cells are important for eliminating tumour cells because they produce IFN-\u03b3, activating cytotoxic T cells.", "to": "IFN-\u03b3 production"}, {"from": "Hypersensitivity types", "label": "Asthma and eczema flare-ups represent Type I and IV hypersensitivities, respectively.", "title": "Asthma and eczema flare-ups represent Type I and IV hypersensitivities, respectively.", "to": "I and IV"}, {"from": "SLE infection risk", "label": "Infections can increase the immune response, worsening SLE symptoms.", "title": "Infections can increase the immune response, worsening SLE symptoms.", "to": "Increased immune response"}, {"from": "Green watery diarrhea organism", "label": "The organism most likely identified with green watery diarrhea and other symptoms is Giardia lamblia.", "title": "The organism most likely identified with green watery diarrhea and other symptoms is Giardia lamblia.", "to": "Giardia lamblia"}, {"from": "Histological diagnosis of lung mass", "label": "The histological diagnosis of the lung mass shown is squamous cell carcinoma.", "title": "The histological diagnosis of the lung mass shown is squamous cell carcinoma.", "to": "Squamous cell carcinoma"}, {"from": "Surfactant production", "label": "Type II alveolar epithelial cells produce surfactant in the developing lung.", "title": "Type II alveolar epithelial cells produce surfactant in the developing lung.", "to": "Type II alveolar epithelial cells"}, {"from": "Asthma exacerbation", "label": "An acute exacerbation of asthma is associated with mucus hypersecretion.", "title": "An acute exacerbation of asthma is associated with mucus hypersecretion.", "to": "Mucus hypersecretion"}, {"from": "Nerve injured during mastectomy", "label": "The intercostobrachial nerve is most likely to have been injured during a total mastectomy causing loss of sensation.", "title": "The intercostobrachial nerve is most likely to have been injured during a total mastectomy causing loss of sensation.", "to": "Intercostobrachial nerve"}, {"from": "Oesophagus constriction", "label": "The arch of aorta is constricting the oesophagus in the case described.", "title": "The arch of aorta is constricting the oesophagus in the case described.", "to": "Arch of aorta"}, {"from": "Blood vessel above left lung root", "label": "The aortic arch crosses superior to the left lung root.", "title": "The aortic arch crosses superior to the left lung root.", "to": "Aortic arch"}, {"from": "Last structure opacified by contrast", "label": "The right subclavian artery is the last structure to be opacified by the contrast.", "title": "The right subclavian artery is the last structure to be opacified by the contrast.", "to": "Right subclavian artery"}, {"from": "Vascular insult to left anterior descending artery", "label": "An occlusion in the left anterior descending artery is most likely to injure the atrioventricular bundle.", "title": "An occlusion in the left anterior descending artery is most likely to injure the atrioventricular bundle.", "to": "Atrioventricular bundle"}, {"from": "Aortic dissection presentation", "label": "Aortic dissection distal to the left subclavian artery is most likely associated with lower limb ischaemia.", "title": "Aortic dissection distal to the left subclavian artery is most likely associated with lower limb ischaemia.", "to": "Lower limb ischaemia"}, {"from": "Injury to left phrenic nerve", "label": "Injury to the left phrenic nerve results in a raised left hemi-diaphragm.", "title": "Injury to the left phrenic nerve results in a raised left hemi-diaphragm.", "to": "Raised left hemi-diaphragm"}, {"from": "Right common carotid artery origin", "label": "The right common carotid artery arises from the brachiocephalic artery.", "title": "The right common carotid artery arises from the brachiocephalic artery.", "to": "Brachiocephalic artery"}, {"from": "Foetal atrial blood flow", "label": "The foramen ovale allows blood to enter the left atrium from the right atrium during foetal life.", "title": "The foramen ovale allows blood to enter the left atrium from the right atrium during foetal life.", "to": "Foramen ovale"}, {"from": "Pneumonia effect on gas exchange", "label": "Pneumonia in the lung increases intrapulmonary shunting, affecting gas exchange.", "title": "Pneumonia in the lung increases intrapulmonary shunting, affecting gas exchange.", "to": "Increased intrapulmonary shunting"}, {"from": "High altitude adaptation", "label": "Decreased serum bicarbonate is a physiological adaptation present after living at high altitude.", "title": "Decreased serum bicarbonate is a physiological adaptation present after living at high altitude.", "to": "Decreased serum bicarbonate"}, {"from": "Highest expiratory flow", "label": "To achieve the highest expiratory flow, forced expiration should be initiated at the end of maximal inspiration.", "title": "To achieve the highest expiratory flow, forced expiration should be initiated at the end of maximal inspiration.", "to": "End of maximal inspiration"}, {"from": "Compensatory response to prevent fainting", "label": "The compensatory physiological response that prevents fainting involves stimulation of beta-1 receptors in the ventricles.", "title": "The compensatory physiological response that prevents fainting involves stimulation of beta-1 receptors in the ventricles.", "to": "Stimulation of beta-1 receptors in ventricles"}, {"from": "Myocardial infarction location", "label": "Pathological Q waves and ST segment elevation in leads II, III, and aVF indicate a myocardial infarction in the inferior wall of the left ventricle.", "title": "Pathological Q waves and ST segment elevation in leads II, III, and aVF indicate a myocardial infarction in the inferior wall of the left ventricle.", "to": "Inferior wall of left ventricle"}, {"from": "Tachypnoea mechanism", "label": "The underlying mechanism for tachypnoea is the response of central chemoreceptors to high PaCO2.", "title": "The underlying mechanism for tachypnoea is the response of central chemoreceptors to high PaCO2.", "to": "Central chemoreceptors responding to high PaCO2"}, {"from": "Ciliated airway cells", "label": "The epithelial lining cells in the airway are ciliated.", "title": "The epithelial lining cells in the airway are ciliated.", "to": "Epithelial lining cells"}, {"from": "Left ventricle end-systolic volume", "label": "The DA line on the pressure-volume loop represents the end-systolic volume of the left ventricle.", "title": "The DA line on the pressure-volume loop represents the end-systolic volume of the left ventricle.", "to": "DA line"}, {"from": "Lung volume equilibrium", "label": "The lung volume at which collapsing pressure of the lung balances expanding pressure of the chest wall is represented by point D.", "title": "The lung volume at which collapsing pressure of the lung balances expanding pressure of the chest wall is represented by point D.", "to": "D"}, {"from": "Skin oedema mechanism", "label": "The underlying physiological mechanism for skin oedema is increased capillary permeability.", "title": "The underlying physiological mechanism for skin oedema is increased capillary permeability.", "to": "Increased capillary permeability"}, {"from": "Pulmonary function test result", "label": "The pulmonary function test results are indicative of emphysema.", "title": "The pulmonary function test results are indicative of emphysema.", "to": "Emphysema"}, {"from": "Cardiac valvular disorder", "label": "A harsh, crescendo-decrescendo systolic murmur radiating to the carotid arteries suggests aortic stenosis.", "title": "A harsh, crescendo-decrescendo systolic murmur radiating to the carotid arteries suggests aortic stenosis.", "to": "Aortic stenosis"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
