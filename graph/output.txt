@@ -1,0 +1,1672 @@
+[
+    {
+        "node_1": "vaccination",
+        "node_2": "disease prevention",
+        "edge": "aims to achieve"
+    },
+    {
+        "node_1": "human rights",
+        "node_2": "vaccination",
+        "edge": "perceived conflict"
+    },
+    {
+        "node_1": "vaccines",
+        "node_2": "advancement",
+        "edge": "represent"
+    },
+    {
+        "node_1": "pandemic",
+        "node_2": "awareness",
+        "edge": "increased"
+    },
+    {
+        "node_1": "viruses",
+        "node_2": "vaccines",
+        "edge": "combat"
+    },
+    {
+        "node_1": "isolation",
+        "node_2": "historical disease control",
+        "edge": "method of"
+    },
+    {
+        "node_1": "Edward Jenner",
+        "node_2": "smallpox vaccine",
+        "edge": "developed"
+    },
+    {
+        "node_1": "1796",
+        "node_2": "smallpox vaccine",
+        "edge": "year of development"
+    },
+    {
+        "node_1": "smallpox",
+        "node_2": "endemic disease",
+        "edge": "caused"
+    },
+    {
+        "node_1": "milkmaids",
+        "node_2": "bovine smallpox",
+        "edge": "contacted"
+    },
+    {
+        "node_1": "immunity",
+        "node_2": "disease survival",
+        "edge": "resulted from"
+    },
+    {
+        "node_1": "8-year-old boy",
+        "node_2": "first vaccination subject",
+        "edge": "chosen as"
+    },
+    {
+        "node_1": "WHO",
+        "node_2": "smallpox eradication",
+        "edge": "declared"
+    },
+    {
+        "node_1": "anti-vax movements",
+        "node_2": "vaccine skepticism",
+        "edge": "promote"
+    },
+    {
+        "node_1": "COVID-19 epidemic",
+        "node_2": "vaccine necessity",
+        "edge": "highlighted"
+    },
+    {
+        "node_1": "fear",
+        "node_2": "vaccination",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "vaccine efficacy",
+        "node_2": "relative risk reduction",
+        "edge": "calculated by"
+    },
+    {
+        "node_1": "vaccine efficacy",
+        "node_2": "absolute risk reduction",
+        "edge": "compared to"
+    },
+    {
+        "node_1": "Pfizer",
+        "node_2": "COVID-19 vaccine",
+        "edge": "developed"
+    },
+    {
+        "node_1": "Moderna",
+        "node_2": "COVID-19 vaccine",
+        "edge": "developed"
+    },
+    {
+        "node_1": "trial participants",
+        "node_2": "vaccine trial",
+        "edge": "involved"
+    },
+    {
+        "node_1": "media",
+        "node_2": "vaccine efficacy reporting",
+        "edge": "communicated"
+    },
+    {
+        "node_1": "general population",
+        "node_2": "vaccine efficacy misunderstanding",
+        "edge": "experienced"
+    },
+    {
+        "node_1": "relative risk reduction",
+        "node_2": "population specific",
+        "edge": "based on"
+    },
+    {
+        "node_1": "absolute risk reduction",
+        "node_2": "general population",
+        "edge": "more relevant to"
+    },
+    {
+        "node_1": "misunderstanding",
+        "node_2": "vaccine efficacy",
+        "edge": "caused by"
+    },
+    {
+        "node_1": "Pfizer vaccine",
+        "node_2": "95% efficacy",
+        "edge": "claimed"
+    },
+    {
+        "node_1": "AstraZeneca",
+        "node_2": "vaccine controversy",
+        "edge": "involved in"
+    },
+    {
+        "node_1": "side effects",
+        "node_2": "vaccine hesitancy",
+        "edge": "caused"
+    },
+    {
+        "node_1": "EMA",
+        "node_2": "vaccine authorization",
+        "edge": "granted"
+    },
+    {
+        "node_1": "control group",
+        "node_2": "placebo recipients",
+        "edge": "comprised of"
+    },
+    {
+        "node_1": "risk reduction",
+        "node_2": "vaccine choice",
+        "edge": "influences"
+    },
+    {
+        "node_1": "general practitioners",
+        "node_2": "public vaccine information",
+        "edge": "provide"
+    },
+    {
+        "node_1": "social media",
+        "node_2": "vaccine information dissemination",
+        "edge": "platform for"
+    },
+    {
+        "node_1": "digital technology",
+        "node_2": "communication",
+        "edge": "facilitates"
+    },
+    {
+        "node_1": "public understanding",
+        "node_2": "vaccine efficacy",
+        "edge": "lacking in"
+    },
+    {
+        "node_1": "vaccine efficacy",
+        "node_2": "public understanding",
+        "edge": "influences"
+    },
+    {
+        "node_1": "side effects",
+        "node_2": "Pfizer vaccine",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "side effects",
+        "node_2": "Moderna vaccine",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "side effects",
+        "node_2": "AstraZeneca vaccine",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "smallpox vaccine",
+        "node_2": "immunity",
+        "edge": "provides"
+    },
+    {
+        "node_1": "public health",
+        "node_2": "vaccination",
+        "edge": "promoted by"
+    },
+    {
+        "node_1": "public health",
+        "node_2": "pandemic",
+        "edge": "affected by"
+    },
+    {
+        "node_1": "social media",
+        "node_2": "misunderstanding",
+        "edge": "amplifies"
+    },
+    {
+        "node_1": "anti-vax movements",
+        "node_2": "social media",
+        "edge": "spread through"
+    },
+    {
+        "node_1": "pandemic",
+        "node_2": "vaccine necessity",
+        "edge": "increases"
+    },
+    {
+        "node_1": "awareness",
+        "node_2": "public health measures",
+        "edge": "improves"
+    },
+    {
+        "node_1": "historical disease control",
+        "node_2": "public health measures",
+        "edge": "involves"
+    },
+    {
+        "node_1": "WHO",
+        "node_2": "pandemic",
+        "edge": "responds to"
+    },
+    {
+        "node_1": "disease prevention",
+        "node_2": "public health",
+        "edge": "key aspect of"
+    },
+    {
+        "node_1": "disease prevention",
+        "node_2": "immunity",
+        "edge": "achieved through"
+    },
+    {
+        "node_1": "first vaccination subject",
+        "node_2": "Edward Jenner",
+        "edge": "chosen by"
+    },
+    {
+        "node_1": "bovine smallpox",
+        "node_2": "smallpox vaccine",
+        "edge": "inspired"
+    },
+    {
+        "node_1": "general population",
+        "node_2": "vaccine hesitancy",
+        "edge": "experiences"
+    },
+    {
+        "node_1": "December 2019",
+        "node_2": "pneumonia cases",
+        "edge": "time of occurrence"
+    },
+    {
+        "node_1": "pneumonia cases",
+        "node_2": "unknown virus",
+        "edge": "caused by"
+    },
+    {
+        "node_1": "unknown virus",
+        "node_2": "fish and seafood market",
+        "edge": "linked to"
+    },
+    {
+        "node_1": "fish and seafood market",
+        "node_2": "Wuhan, China",
+        "edge": "location"
+    },
+    {
+        "node_1": "unknown virus",
+        "node_2": "new coronavirus",
+        "edge": "identified as"
+    },
+    {
+        "node_1": "World Health Organization",
+        "node_2": "COVID-19",
+        "edge": "named disease"
+    },
+    {
+        "node_1": "SARS-CoV-2",
+        "node_2": "COVID-19",
+        "edge": "causes"
+    },
+    {
+        "node_1": "March 11, 2020",
+        "node_2": "COVID-19 pandemic",
+        "edge": "declared by WHO"
+    },
+    {
+        "node_1": "nonessential activities",
+        "node_2": "restricted",
+        "edge": "due to pandemic"
+    },
+    {
+        "node_1": "educational institutions",
+        "node_2": "safe return",
+        "edge": "study ways"
+    },
+    {
+        "node_1": "biosecurity measures",
+        "node_2": "use of masks",
+        "edge": "includes"
+    },
+    {
+        "node_1": "biosecurity measures",
+        "node_2": "social distancing",
+        "edge": "includes"
+    },
+    {
+        "node_1": "biosecurity measures",
+        "node_2": "personal hygiene",
+        "edge": "includes"
+    },
+    {
+        "node_1": "biosecurity measures",
+        "node_2": "monitoring programs",
+        "edge": "includes"
+    },
+    {
+        "node_1": "monitoring programs",
+        "node_2": "testing",
+        "edge": "involves"
+    },
+    {
+        "node_1": "monitoring programs",
+        "node_2": "isolation",
+        "edge": "involves"
+    },
+    {
+        "node_1": "educational institutions",
+        "node_2": "high transmission rates",
+        "edge": "concern about"
+    },
+    {
+        "node_1": "transmission of SARS-CoV-2",
+        "node_2": "minimized",
+        "edge": "due to sanitary measures"
+    },
+    {
+        "node_1": "Delaware State University",
+        "node_2": "monitoring SARS-CoV-2",
+        "edge": "example of"
+    },
+    {
+        "node_1": "testing",
+        "node_2": "epidemiological information",
+        "edge": "provides"
+    },
+    {
+        "node_1": "epidemiological information",
+        "node_2": "impact of vaccination",
+        "edge": "includes"
+    },
+    {
+        "node_1": "epidemiological information",
+        "node_2": "emergence of variants",
+        "edge": "includes"
+    },
+    {
+        "node_1": "epidemiological information",
+        "node_2": "time of infection",
+        "edge": "includes"
+    },
+    {
+        "node_1": "epidemiological information",
+        "node_2": "prediction of outbreaks",
+        "edge": "includes"
+    },
+    {
+        "node_1": "epidemiological information",
+        "node_2": "community guidance",
+        "edge": "includes"
+    },
+    {
+        "node_1": "epidemiological information",
+        "node_2": "protocols development",
+        "edge": "includes"
+    },
+    {
+        "node_1": "testing",
+        "node_2": "isolating confirmed cases",
+        "edge": "most effective way to control virus"
+    },
+    {
+        "node_1": "RTqPCR",
+        "node_2": "nasal and oropharyngeal secretions",
+        "edge": "performed on"
+    },
+    {
+        "node_1": "gold standard method",
+        "node_2": "RTqPCR",
+        "edge": "is"
+    },
+    {
+        "node_1": "SARS-CoV-2",
+        "node_2": "saliva",
+        "edge": "presence in"
+    },
+    {
+        "node_1": "RTqPCR",
+        "node_2": "saliva",
+        "edge": "performed on"
+    },
+    {
+        "node_1": "Universidade Federal do ABC",
+        "node_2": "monitoring SARS-CoV-2",
+        "edge": "example of"
+    },
+    {
+        "node_1": "UFABC",
+        "node_2": "self-collected saliva",
+        "edge": "used in"
+    },
+    {
+        "node_1": "UFABC community",
+        "node_2": "communication tools",
+        "edge": "development of"
+    },
+    {
+        "node_1": "saliva sample collection kit",
+        "node_2": "subject\u2019s data",
+        "edge": "contains form for"
+    },
+    {
+        "node_1": "saliva sample collection kit",
+        "node_2": "dry collection tube",
+        "edge": "includes"
+    },
+    {
+        "node_1": "saliva sample collection kit",
+        "node_2": "alcohol wipes",
+        "edge": "includes"
+    },
+    {
+        "node_1": "saliva sample collection kit",
+        "node_2": "cotton swab",
+        "edge": "includes"
+    },
+    {
+        "node_1": "public workers",
+        "node_2": "pink circle",
+        "edge": "symbolized by"
+    },
+    {
+        "node_1": "undergraduate students",
+        "node_2": "light blue pentagon",
+        "edge": "symbolized by"
+    },
+    {
+        "node_1": "researchers",
+        "node_2": "green rectangle",
+        "edge": "symbolized by"
+    },
+    {
+        "node_1": "outsourced workers",
+        "node_2": "orange diamond",
+        "edge": "symbolized by"
+    },
+    {
+        "node_1": "self-collected saliva",
+        "node_2": "dry cotton",
+        "edge": "collected on"
+    },
+    {
+        "node_1": "dry cotton",
+        "node_2": "0.5 cm diameter",
+        "edge": "size"
+    },
+    {
+        "node_1": "self-collected saliva",
+        "node_2": "transported in blood collection tubes",
+        "edge": "method of transport"
+    },
+    {
+        "node_1": "blood collection tubes",
+        "node_2": "without additives",
+        "edge": "type"
+    },
+    {
+        "node_1": "blood collection tubes",
+        "node_2": "wrapped with 70% ethanol tissue",
+        "edge": "wrapped with"
+    },
+    {
+        "node_1": "UFABC community",
+        "node_2": "monitoring SARS-CoV-2",
+        "edge": "success in"
+    },
+    {
+        "node_1": "nucleic acids",
+        "node_2": "TRIZOL-type reagent",
+        "edge": "extracted with"
+    },
+    {
+        "node_1": "SARS-CoV-2 diagnosis",
+        "node_2": "RTqPCR",
+        "edge": "performed by"
+    },
+    {
+        "node_1": "RTqPCR",
+        "node_2": "TaqMan markers",
+        "edge": "uses"
+    },
+    {
+        "node_1": "TaqMan markers",
+        "node_2": "envelope proteins",
+        "edge": "detects genes of"
+    },
+    {
+        "node_1": "TaqMan markers",
+        "node_2": "nucleocapsid",
+        "edge": "detects genes of"
+    },
+    {
+        "node_1": "TaqMan markers",
+        "node_2": "RNA Polymerase",
+        "edge": "detects genes of"
+    },
+    {
+        "node_1": "positive individuals",
+        "node_2": "contacted via telephone",
+        "edge": "result disclosure method"
+    },
+    {
+        "node_1": "positive individuals",
+        "node_2": "WhatsApp \u201cMonitora Corona UFABC\u201d",
+        "edge": "result disclosure method"
+    },
+    {
+        "node_1": "WhatsApp \u201cMonitora Corona UFABC\u201d",
+        "node_2": "psychology professional",
+        "edge": "results delivered by"
+    },
+    {
+        "node_1": "UFABC",
+        "node_2": "Planning and Management Actions Committee",
+        "edge": "established"
+    },
+    {
+        "node_1": "Planning and Management Actions Committee",
+        "node_2": "conditions of return",
+        "edge": "studied"
+    },
+    {
+        "node_1": "Monitoring and Testing Center",
+        "node_2": "epidemiological situation",
+        "edge": "monitored"
+    },
+    {
+        "node_1": "epidemiological situation",
+        "node_2": "weekly tests",
+        "edge": "through"
+    },
+    {
+        "node_1": "weekly tests",
+        "node_2": "people with justification to attend",
+        "edge": "on"
+    },
+    {
+        "node_1": "UFABC",
+        "node_2": "May 2021 to December 2022",
+        "edge": "monitoring period"
+    },
+    {
+        "node_1": "51,000 tests",
+        "node_2": "1800 positive results",
+        "edge": "performed with"
+    },
+    {
+        "node_1": "telephone contact",
+        "node_2": "limited",
+        "edge": "due to synchronous nature"
+    },
+    {
+        "node_1": "WhatsApp",
+        "node_2": "asynchronous communication",
+        "edge": "enabled"
+    },
+    {
+        "node_1": "results",
+        "node_2": "informative email",
+        "edge": "delivered by"
+    },
+    {
+        "node_1": "June 2022",
+        "node_2": "workers return",
+        "edge": "mass"
+    },
+    {
+        "node_1": "school recess",
+        "node_2": "September 2022",
+        "edge": "occurred during"
+    },
+    {
+        "node_1": "positive result",
+        "node_2": "medical certificate",
+        "edge": "required for removal"
+    },
+    {
+        "node_1": "mask wearing",
+        "node_2": "optional",
+        "edge": "as of October 2022"
+    },
+    {
+        "node_1": "monitoring and testing center",
+        "node_2": "demobilized",
+        "edge": "December 2022"
+    },
+    {
+        "node_1": "mental health",
+        "node_2": "psychosocial support",
+        "edge": "recommended training"
+    },
+    {
+        "node_1": "psychosocial support",
+        "node_2": "safe relationship",
+        "edge": "builds"
+    },
+    {
+        "node_1": "psychosocial support",
+        "node_2": "community engagement",
+        "edge": "strengthens"
+    },
+    {
+        "node_1": "mental health",
+        "node_2": "essential information",
+        "edge": "includes disease details"
+    },
+    {
+        "node_1": "UFABC community",
+        "node_2": "biosafety protocols",
+        "edge": "developed"
+    },
+    {
+        "node_1": "UFABC community",
+        "node_2": "lower infection rates",
+        "edge": "achieved"
+    },
+    {
+        "node_1": "WhatsApp",
+        "node_2": "community engagement",
+        "edge": "enhanced"
+    },
+    {
+        "node_1": "community engagement",
+        "node_2": "data collection",
+        "edge": "enabled detailed"
+    },
+    {
+        "node_1": "Embryology",
+        "node_2": "ontogeny",
+        "edge": "aspect of"
+    },
+    {
+        "node_1": "Embryology",
+        "node_2": "phylogeny",
+        "edge": "aspect of"
+    },
+    {
+        "node_1": "ontogeny",
+        "node_2": "development of individual",
+        "edge": "deals with"
+    },
+    {
+        "node_1": "phylogeny",
+        "node_2": "evolutionary history",
+        "edge": "concerns"
+    },
+    {
+        "node_1": "vertebrate animals",
+        "node_2": "development",
+        "edge": "requires fertilized ovum"
+    },
+    {
+        "node_1": "ovum",
+        "node_2": "nucleated cell",
+        "edge": "is a"
+    },
+    {
+        "node_1": "ovum",
+        "node_2": "spermatozo\u00f6n",
+        "edge": "fertilized by"
+    },
+    {
+        "node_1": "fertilized ovum",
+        "node_2": "segmentation",
+        "edge": "undergoes"
+    },
+    {
+        "node_1": "fertilized ovum",
+        "node_2": "differentiation",
+        "edge": "undergoes"
+    },
+    {
+        "node_1": "segmentation",
+        "node_2": "cells",
+        "edge": "produces"
+    },
+    {
+        "node_1": "cells",
+        "node_2": "somatic cells",
+        "edge": "differentiated into"
+    },
+    {
+        "node_1": "cells",
+        "node_2": "germinal cells",
+        "edge": "differentiated into"
+    },
+    {
+        "node_1": "somatic cells",
+        "node_2": "build tissues",
+        "edge": "function"
+    },
+    {
+        "node_1": "germinal cells",
+        "node_2": "sexual glands",
+        "edge": "imbedded in"
+    },
+    {
+        "node_1": "sexual glands",
+        "node_2": "ovaries",
+        "edge": "female"
+    },
+    {
+        "node_1": "sexual glands",
+        "node_2": "testes",
+        "edge": "male"
+    },
+    {
+        "node_1": "germinal cells",
+        "node_2": "perpetuation of species",
+        "edge": "destined for"
+    },
+    {
+        "node_1": "tissues and organs",
+        "node_2": "fertilized ovum",
+        "edge": "originate from"
+    },
+    {
+        "node_1": "fertilized ovum",
+        "node_2": "cell",
+        "edge": "is a"
+    },
+    {
+        "node_1": "cell",
+        "node_2": "nucleated mass of protoplasm",
+        "edge": "defined as"
+    },
+    {
+        "node_1": "cytoplasm",
+        "node_2": "soft jelly-like material",
+        "edge": "is a"
+    },
+    {
+        "node_1": "nucleus",
+        "node_2": "small spherical body",
+        "edge": "defined as"
+    },
+    {
+        "node_1": "cytoplasm",
+        "node_2": "protoplasm",
+        "edge": "also known as"
+    },
+    {
+        "node_1": "cytoplasm",
+        "node_2": "proteid nature",
+        "edge": "composition"
+    },
+    {
+        "node_1": "lecithin",
+        "node_2": "cytoplasm",
+        "edge": "found in"
+    },
+    {
+        "node_1": "cholesterin",
+        "node_2": "cytoplasm",
+        "edge": "found in"
+    },
+    {
+        "node_1": "inorganic salts",
+        "node_2": "cytoplasm",
+        "edge": "found in"
+    },
+    {
+        "node_1": "mitochondria",
+        "node_2": "cytoplasm",
+        "edge": "constant granules in"
+    },
+    {
+        "node_1": "cell membrane",
+        "node_2": "peripheral layer",
+        "edge": "modified as"
+    },
+    {
+        "node_1": "Nucleus",
+        "node_2": "protoplasm",
+        "edge": "embedded in"
+    },
+    {
+        "node_1": "Nucleus",
+        "node_2": "spherical or oval",
+        "edge": "form"
+    },
+    {
+        "node_1": "Nucleus",
+        "node_2": "nuclear membrane",
+        "edge": "surrounded by"
+    },
+    {
+        "node_1": "nuclear membrane",
+        "node_2": "nuclear substance",
+        "edge": "encloses"
+    },
+    {
+        "node_1": "nuclear substance",
+        "node_2": "nuclear matrix",
+        "edge": "also known as"
+    },
+    {
+        "node_1": "nuclear matrix",
+        "node_2": "homogeneous material",
+        "edge": "composition"
+    },
+    {
+        "node_1": "nuclear matrix",
+        "node_2": "nucleoli",
+        "edge": "contains"
+    },
+    {
+        "node_1": "karyoplasm",
+        "node_2": "nucleus",
+        "edge": "clear substance in"
+    },
+    {
+        "node_1": "karyomitome",
+        "node_2": "nucleus",
+        "edge": "network in"
+    },
+    {
+        "node_1": "karyomitome",
+        "node_2": "linin",
+        "edge": "composed of"
+    },
+    {
+        "node_1": "linin",
+        "node_2": "chromatin particles",
+        "edge": "contains"
+    },
+    {
+        "node_1": "chromatin",
+        "node_2": "nucleic acid",
+        "edge": "contains"
+    },
+    {
+        "node_1": "pseudo-nucleoli",
+        "node_2": "chromatin condensations",
+        "edge": "are"
+    },
+    {
+        "node_1": "true nucleoli",
+        "node_2": "distinct bodies",
+        "edge": "are"
+    },
+    {
+        "node_1": "true nucleoli",
+        "node_2": "resting cells",
+        "edge": "found in"
+    },
+    {
+        "node_1": "centrosome",
+        "node_2": "nucleus",
+        "edge": "near"
+    },
+    {
+        "node_1": "centrosome",
+        "node_2": "centriole",
+        "edge": "contains"
+    },
+    {
+        "node_1": "centriole",
+        "node_2": "centrosphere",
+        "edge": "surrounded by"
+    },
+    {
+        "node_1": "centrosphere",
+        "node_2": "attraction sphere",
+        "edge": "forms"
+    },
+    {
+        "node_1": "direct division",
+        "node_2": "cell reproduction",
+        "edge": "method of"
+    },
+    {
+        "node_1": "indirect division",
+        "node_2": "cell reproduction",
+        "edge": "method of"
+    },
+    {
+        "node_1": "direct division",
+        "node_2": "nucleus constriction",
+        "edge": "involves"
+    },
+    {
+        "node_1": "indirect division",
+        "node_2": "karyokinesis",
+        "edge": "also known as"
+    },
+    {
+        "node_1": "prophase",
+        "node_2": "chromatin filaments",
+        "edge": "skein form"
+    },
+    {
+        "node_1": "chromatin filaments",
+        "node_2": "chromosomes",
+        "edge": "divides into"
+    },
+    {
+        "node_1": "metaphase",
+        "node_2": "chromosomes",
+        "edge": "cleavage"
+    },
+    {
+        "node_1": "chromosomes",
+        "node_2": "daughter chromosomes",
+        "edge": "cleaves into"
+    },
+    {
+        "node_1": "anaphase",
+        "node_2": "daughter chromosomes",
+        "edge": "movement"
+    },
+    {
+        "node_1": "daughter chromosomes",
+        "node_2": "diaster",
+        "edge": "forms"
+    },
+    {
+        "node_1": "telophase",
+        "node_2": "cell division",
+        "edge": "involves"
+    },
+    {
+        "node_1": "cell division",
+        "node_2": "new cells",
+        "edge": "results in"
+    },
+    {
+        "node_1": "new cells",
+        "node_2": "nucleus and centrosome",
+        "edge": "each has"
+    },
+    {
+        "node_1": "vaccination",
+        "node_2": "smallpox vaccine",
+        "edge": "includes"
+    },
+    {
+        "node_1": "vaccination",
+        "node_2": "COVID-19 vaccine",
+        "edge": "includes"
+    },
+    {
+        "node_1": "public health",
+        "node_2": "biosecurity measures",
+        "edge": "encompasses"
+    },
+    {
+        "node_1": "public health",
+        "node_2": "disease control",
+        "edge": "focuses on"
+    },
+    {
+        "node_1": "disease prevention",
+        "node_2": "vaccines",
+        "edge": "utilizes"
+    },
+    {
+        "node_1": "vaccines",
+        "node_2": "immunity",
+        "edge": "induce"
+    },
+    {
+        "node_1": "public health measures",
+        "node_2": "vaccine distribution",
+        "edge": "includes"
+    },
+    {
+        "node_1": "pandemic",
+        "node_2": "biosecurity measures",
+        "edge": "necessitates"
+    },
+    {
+        "node_1": "pandemic",
+        "node_2": "COVID-19 epidemic",
+        "edge": "example of"
+    },
+    {
+        "node_1": "pandemic",
+        "node_2": "global health crisis",
+        "edge": "is a"
+    },
+    {
+        "node_1": "immunity",
+        "node_2": "smallpox",
+        "edge": "prevents"
+    },
+    {
+        "node_1": "smallpox vaccine",
+        "node_2": "vaccination",
+        "edge": "method of"
+    },
+    {
+        "node_1": "Edward Jenner",
+        "node_2": "1796",
+        "edge": "in"
+    },
+    {
+        "node_1": "WHO",
+        "node_2": "World Health Organization",
+        "edge": "acronym for"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "new coronavirus",
+        "edge": "caused by"
+    },
+    {
+        "node_1": "social media",
+        "node_2": "vaccine misinformation",
+        "edge": "spreads"
+    },
+    {
+        "node_1": "fear",
+        "node_2": "vaccine misinformation",
+        "edge": "caused by"
+    },
+    {
+        "node_1": "vaccine skepticism",
+        "node_2": "public understanding",
+        "edge": "affects"
+    },
+    {
+        "node_1": "smallpox",
+        "node_2": "vaccination",
+        "edge": "prevented by"
+    },
+    {
+        "node_1": "side effects",
+        "node_2": "public perception",
+        "edge": "influences"
+    },
+    {
+        "node_1": "smallpox vaccine",
+        "node_2": "side effects",
+        "edge": "may cause"
+    },
+    {
+        "node_1": "COVID-19 vaccine",
+        "node_2": "side effects",
+        "edge": "may cause"
+    },
+    {
+        "node_1": "public health",
+        "node_2": "vaccine campaigns",
+        "edge": "promotes"
+    },
+    {
+        "node_1": "public health",
+        "node_2": "WHO",
+        "edge": "supported by"
+    },
+    {
+        "node_1": "vaccine efficacy",
+        "node_2": "clinical trials",
+        "edge": "determined by"
+    },
+    {
+        "node_1": "clinical trials",
+        "node_2": "Pfizer vaccine",
+        "edge": "conducted for"
+    },
+    {
+        "node_1": "clinical trials",
+        "node_2": "Moderna vaccine",
+        "edge": "conducted for"
+    },
+    {
+        "node_1": "clinical trials",
+        "node_2": "AstraZeneca vaccine",
+        "edge": "conducted for"
+    },
+    {
+        "node_1": "vaccine information dissemination",
+        "node_2": "media",
+        "edge": "through"
+    },
+    {
+        "node_1": "vaccine information dissemination",
+        "node_2": "social media",
+        "edge": "through"
+    },
+    {
+        "node_1": "media",
+        "node_2": "public perception",
+        "edge": "influences"
+    },
+    {
+        "node_1": "general practitioners",
+        "node_2": "vaccine administration",
+        "edge": "involved in"
+    },
+    {
+        "node_1": "public understanding",
+        "node_2": "vaccine campaigns",
+        "edge": "enhanced by"
+    },
+    {
+        "node_1": "public health measures",
+        "node_2": "disease prevention",
+        "edge": "aim for"
+    },
+    {
+        "node_1": "public health measures",
+        "node_2": "pandemic response",
+        "edge": "includes"
+    },
+    {
+        "node_1": "immunity",
+        "node_2": "smallpox scars",
+        "edge": "evidenced by"
+    },
+    {
+        "node_1": "WHO",
+        "node_2": "pandemic response",
+        "edge": "coordinates"
+    },
+    {
+        "node_1": "pandemic response",
+        "node_2": "global health measures",
+        "edge": "involves"
+    },
+    {
+        "node_1": "Coronavirus disease 2019",
+        "node_2": "SARS-CoV-2",
+        "edge": "caused by"
+    },
+    {
+        "node_1": "SARS-CoV-2",
+        "node_2": "human populations",
+        "edge": "entered through natural zoonosis"
+    },
+    {
+        "node_1": "SARS-CoV-2",
+        "node_2": "zoonotic spillover",
+        "edge": "increased likelihood due to"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "COVID-19 pandemic",
+        "edge": "resulted in"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "symptoms",
+        "edge": "variable but often include"
+    },
+    {
+        "node_1": "symptoms",
+        "node_2": "fever",
+        "edge": "include"
+    },
+    {
+        "node_1": "symptoms",
+        "node_2": "fatigue",
+        "edge": "include"
+    },
+    {
+        "node_1": "symptoms",
+        "node_2": "cough",
+        "edge": "include"
+    },
+    {
+        "node_1": "symptoms",
+        "node_2": "breathing difficulties",
+        "edge": "include"
+    },
+    {
+        "node_1": "symptoms",
+        "node_2": "loss of smell",
+        "edge": "include"
+    },
+    {
+        "node_1": "symptoms",
+        "node_2": "loss of taste",
+        "edge": "include"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "transmission",
+        "edge": "occurs through"
+    },
+    {
+        "node_1": "transmission",
+        "node_2": "infectious particles",
+        "edge": "involves"
+    },
+    {
+        "node_1": "transmission",
+        "node_2": "eyes, nose, or mouth",
+        "edge": "contact with"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "contagious for up to 20 days",
+        "edge": "people remain"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "testing methods",
+        "edge": "include"
+    },
+    {
+        "node_1": "testing methods",
+        "node_2": "RT-PCR",
+        "edge": "include"
+    },
+    {
+        "node_1": "testing methods",
+        "node_2": "transcription-mediated amplification",
+        "edge": "include"
+    },
+    {
+        "node_1": "testing methods",
+        "node_2": "RT-LAMP",
+        "edge": "include"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "vaccines",
+        "edge": "include"
+    },
+    {
+        "node_1": "vaccines",
+        "node_2": "mass vaccination campaigns",
+        "edge": "used in"
+    },
+    {
+        "node_1": "preventive measures",
+        "node_2": "physical distancing",
+        "edge": "include"
+    },
+    {
+        "node_1": "preventive measures",
+        "node_2": "quarantining",
+        "edge": "include"
+    },
+    {
+        "node_1": "preventive measures",
+        "node_2": "ventilation",
+        "edge": "include"
+    },
+    {
+        "node_1": "preventive measures",
+        "node_2": "face masks",
+        "edge": "include"
+    },
+    {
+        "node_1": "preventive measures",
+        "node_2": "hand washing",
+        "edge": "include"
+    },
+    {
+        "node_1": "preventive measures",
+        "node_2": "keeping unwashed hands away from face",
+        "edge": "include"
+    },
+    {
+        "node_1": "long COVID",
+        "node_2": "months or years after infection",
+        "edge": "experienced for"
+    },
+    {
+        "node_1": "COVID-19",
+        "node_2": "long-term effects",
+        "edge": "studied in multi-year studies"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "Public health concern",
+        "edge": "is a"
+    },
+    {
+        "node_1": "Singapore Government",
+        "node_2": "War on Diabetes",
+        "edge": "declared"
+    },
+    {
+        "node_1": "War on Diabetes",
+        "node_2": "Public health campaign",
+        "edge": "included"
+    },
+    {
+        "node_1": "Diabetes information",
+        "node_2": "General population",
+        "edge": "reaches"
+    },
+    {
+        "node_1": "Socio-demographic characteristics",
+        "node_2": "Sources of information",
+        "edge": "influence"
+    },
+    {
+        "node_1": "Knowledge of diabetes",
+        "node_2": "Sources of information",
+        "edge": "influenced by"
+    },
+    {
+        "node_1": "Population-based cross-sectional study",
+        "node_2": "Respondents",
+        "edge": "included"
+    },
+    {
+        "node_1": "Media articles",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Health promotion videos",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Online websites",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Books",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Healthcare professionals",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Radio",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Public forums",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Support groups",
+        "node_2": "Sources of information",
+        "edge": "are"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "Younger people",
+        "edge": "is associated with"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "Malay ethnicity",
+        "edge": "is associated with"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "Indian ethnicity",
+        "edge": "is associated with"
+    },
+    {
+        "node_1": "War on Diabetes",
+        "node_2": "Nationwide awareness campaign",
+        "edge": "is a"
+    },
+    {
+        "node_1": "Public health mass media campaigns",
+        "node_2": "Health information",
+        "edge": "are sources of"
+    },
+    {
+        "node_1": "Traditional media",
+        "node_2": "Public health mass media campaigns",
+        "edge": "used in"
+    },
+    {
+        "node_1": "Digital media",
+        "node_2": "Public health mass media campaigns",
+        "edge": "used in"
+    },
+    {
+        "node_1": "Diabetes mellitus",
+        "node_2": "Global public health threat",
+        "edge": "recognized as"
+    },
+    {
+        "node_1": "Sedentary lifestyle",
+        "node_2": "Diabetes",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "Obesity",
+        "node_2": "Diabetes",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "Red meat consumption",
+        "node_2": "Diabetes",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "Processed meat consumption",
+        "node_2": "Diabetes",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "Refined grains consumption",
+        "node_2": "Diabetes",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "Sugar-sweetened beverages",
+        "node_2": "Diabetes",
+        "edge": "associated with"
+    },
+    {
+        "node_1": "International Diabetes Federation",
+        "node_2": "463 million adults with diabetes",
+        "edge": "estimated"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "6.7 million deaths worldwide",
+        "edge": "causes"
+    },
+    {
+        "node_1": "Asian populations",
+        "node_2": "Higher diabetes risk",
+        "edge": "have"
+    },
+    {
+        "node_1": "Western-style fast food",
+        "node_2": "Increased diabetes risk",
+        "edge": "linked to"
+    },
+    {
+        "node_1": "Symptoms of diabetes",
+        "node_2": "Awareness campaigns",
+        "edge": "raise awareness of"
+    },
+    {
+        "node_1": "Causes of diabetes",
+        "node_2": "Awareness campaigns",
+        "edge": "raise awareness of"
+    },
+    {
+        "node_1": "Complications of diabetes",
+        "node_2": "Awareness campaigns",
+        "edge": "raise awareness of"
+    },
+    {
+        "node_1": "Obesity",
+        "node_2": "Diabetes",
+        "edge": "linked with"
+    },
+    {
+        "node_1": "Poor diet",
+        "node_2": "Diabetes",
+        "edge": "linked with"
+    },
+    {
+        "node_1": "Lack of physical activity",
+        "node_2": "Diabetes",
+        "edge": "linked with"
+    },
+    {
+        "node_1": "Health-promoting self-care behaviours",
+        "node_2": "Prevention of diabetes",
+        "edge": "can lead to"
+    },
+    {
+        "node_1": "Good glycaemic control",
+        "node_2": "Diabetes management",
+        "edge": "results in"
+    },
+    {
+        "node_1": "Reduction of complications",
+        "node_2": "Diabetes management",
+        "edge": "results in"
+    },
+    {
+        "node_1": "Singapore",
+        "node_2": "Crude prevalence of diabetes",
+        "edge": "has"
+    },
+    {
+        "node_1": "Ministry of Health, Singapore",
+        "node_2": "War on Diabetes",
+        "edge": "declared"
+    },
+    {
+        "node_1": "Health Promotion Board, Singapore",
+        "node_2": "Engagement sessions",
+        "edge": "organized"
+    },
+    {
+        "node_1": "2000 responses",
+        "node_2": "Engagement sessions",
+        "edge": "received"
+    },
+    {
+        "node_1": "Community programs",
+        "node_2": "Co-created",
+        "edge": "were"
+    },
+    {
+        "node_1": "Citizen\u2019s jury",
+        "node_2": "Recommendations",
+        "edge": "developed"
+    },
+    {
+        "node_1": "Public media campaign",
+        "node_2": "Diabetes awareness",
+        "edge": "increased"
+    },
+    {
+        "node_1": "National Healthy Lifestyle campaign",
+        "node_2": "Awareness campaign",
+        "edge": "was"
+    },
+    {
+        "node_1": "Diabetes information",
+        "node_2": "Healthcare providers",
+        "edge": "provided by"
+    },
+    {
+        "node_1": "Diabetes information",
+        "node_2": "News coverage",
+        "edge": "provided by"
+    },
+    {
+        "node_1": "Diabetes information",
+        "node_2": "Social media",
+        "edge": "provided by"
+    },
+    {
+        "node_1": "Sources of information",
+        "node_2": "Diabetes knowledge",
+        "edge": "influences"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "War on Diabetes",
+        "edge": "targeted by"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "Diabetes information",
+        "edge": "topic of"
+    },
+    {
+        "node_1": "Diabetes",
+        "node_2": "Diabetes mellitus",
+        "edge": "also known as"
+    },
+    {
+        "node_1": "Singapore Government",
+        "node_2": "Ministry of Health, Singapore",
+        "edge": "includes"
+    },
+    {
+        "node_1": "Singapore Government",
+        "node_2": "Health Promotion Board, Singapore",
+        "edge": "includes"
+    },
+    {
+        "node_1": "War on Diabetes",
+        "node_2": "Community programs",
+        "edge": "initiated"
+    },
+    {
+        "node_1": "Nationwide awareness campaign",
+        "node_2": "Diabetes awareness",
+        "edge": "raised"
+    },
+    {
+        "node_1": "Nationwide awareness campaign",
+        "node_2": "National Healthy Lifestyle campaign",
+        "edge": "includes"
+    },
+    {
+        "node_1": "Healthcare providers",
+        "node_2": "Healthcare professionals",
+        "edge": "are"
+    },
+    {
+        "node_1": "Engagement sessions",
+        "node_2": "Community programs",
+        "edge": "led to"
+    },
+    {
+        "node_1": "Socio-demographic characteristics",
+        "node_2": "Diabetes knowledge",
+        "edge": "affect"
+    },
+    {
+        "node_1": "Public health mass media campaigns",
+        "node_2": "Symptoms of diabetes",
+        "edge": "inform about"
+    },
+    {
+        "node_1": "Public health mass media campaigns",
+        "node_2": "Causes of diabetes",
+        "edge": "inform about"
+    },
+    {
+        "node_1": "Public health mass media campaigns",
+        "node_2": "Complications of diabetes",
+        "edge": "inform about"
+    },
+    {
+        "node_1": "War on Diabetes",
+        "node_2": "Public media campaign",
+        "edge": "includes"
+    },
+    {
+        "node_1": "War on Diabetes",
+        "node_2": "Nationwide awareness campaign",
+        "edge": "is part of"
+    },
+    {
+        "node_1": "463 million adults with diabetes",
+        "node_2": "Global public health threat",
+        "edge": "represents"
+    },
+    {
+        "node_1": "Global public health threat",
+        "node_2": "Diabetes",
+        "edge": "includes"
+    }
+]
